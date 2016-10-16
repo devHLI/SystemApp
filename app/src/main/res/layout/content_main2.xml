@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.devha.systemapp.Main2Activity"
+    tools:showIn="@layout/activity_main2">
+
+    <Button
+        android:id="@+id/ID_QR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="#ffee32"
+        android:text="Enter QR"
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ID_QR"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/ID_fullNm"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:background="#ffee32"
+        android:ems="10"
+        android:hint="Full Name..."
+        android:inputType="textEmailAddress"
+
+
+        />
+    <EditText
+        android:id="@+id/ID_E_adrs"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffee32"
+        android:ems="10"
+        android:hint="E-mail adress"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/ID_password"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffee32"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword"
+
+        />
+        <EditText
+            android:id="@+id/ID_passwordConf"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffee32"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="numberPassword"
+            />
+        <Button
+            android:id="@+id/ID_commiteeBtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/ddd"
+
+            android:text="commitee"
+            />
+        <Button
+            android:id="@+id/postion_btn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ddd"
+            android:text="position"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ID_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="#ffee32"
+        android:onClick="onSignUp"
+        android:text="Sign Up"
+
+        />
+
+
+
+</RelativeLayout>

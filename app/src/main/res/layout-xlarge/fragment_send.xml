@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5e315"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context="com.example.devha.systemapp.Fragments.SendFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#ffffff"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Send as"
+        android:textColor="#b96600" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/ID_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+
+            android:layout_marginTop="15dp"
+            android:background="@drawable/dddopy"
+            android:text="FeedBack" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ID_feedback"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/dddopy"
+
+            android:text="Send" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

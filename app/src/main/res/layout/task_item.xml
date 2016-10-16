@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginBottom="5dp"
+
+    android:elevation="15dp"
+    android:id="@+id/ID_TskLayout"
+    >
+
+    <TextView
+        android:id="@+id/ID_taskItmTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reason for the first alert"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+
+        android:textColor="@android:color/black"
+
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/ID_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22:00"
+        android:textColor="@android:color/black"
+
+        android:layout_marginLeft="10dp"
+        />
+
+
+
+
+</LinearLayout>
